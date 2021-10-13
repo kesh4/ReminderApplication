@@ -10,14 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ReminderApplication">
         <activity android:name=".NotificationClicked"></activity>
-        <activity android:name=".MainActivity"
-            android:label="Notifier">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".MainActivity" />
 
         <receiver android:name=".BackgroudTimerService" />
     </application>
