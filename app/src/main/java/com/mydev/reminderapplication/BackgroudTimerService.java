@@ -24,7 +24,7 @@ public class BackgroudTimerService extends BroadcastReceiver {
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context, "notifierID")
                 .setSmallIcon(R.drawable.ic_launcher_background)
                 .setContentTitle("Notifer")
-                .setContentText("asd asd asd")
+                .setContentText("Times Up - Notifier")
                 .setAutoCancel(true)
                 .setDefaults(NotificationCompat.DEFAULT_ALL)
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
