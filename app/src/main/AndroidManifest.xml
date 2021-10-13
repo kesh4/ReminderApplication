@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".AddEvent1" ></activity>
+        <activity android:name=".AddEvent2" ></activity>
+
 
         <receiver android:name=".BackgroudTimerService" />
     </application>
