@@ -8,6 +8,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ReminderApplication" />
+        android:theme="@style/Theme.ReminderApplication">
+        <activity android:name=".NotificationClicked"></activity>
+        <activity android:name=".MainActivity" />
+
+        <receiver android:name=".BackgroudTimerService" />
+    </application>
 
 </manifest>
